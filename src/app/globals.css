@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+  }
+  
   body {
     @apply bg-black text-white min-h-screen;
+    font-family: var(--font-inter);
   }
 }
 
